@@ -1,0 +1,21 @@
+{
+    "groups" : [
+        {
+            "name" : "Engineering"
+        }
+    ],
+    
+    "users": [
+
+        {
+            "first_name": "Mike",
+            "last_name": "Weaver",
+            "password": "peedubya",
+            "username": "mweaver",
+            "groups": [
+                "Engineering"
+            ]    
+        }
+    ]
+
+}
