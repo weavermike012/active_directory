@@ -1,8 +1,8 @@
 # 01 Installing Domain Controller
 1. User `sconfig` to:
     - Change the hostname
-    - Change the ip Addr to static 10.44.44.160
-    - Change DNS Server to own IP/Secondary to 10.44.44.1
+    - Change the ip Addr to static 192.168.1.160
+    - Change DNS Server to own IP/Secondary to 192.168.1.1
 
 ##    ((Enter Remote Session on workstation1))
 `Enter-PSSession 10.44.44.160 -Credential (Get-Credential)`
