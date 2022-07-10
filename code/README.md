@@ -5,7 +5,7 @@
     - Change DNS Server to own IP/Secondary to 192.168.1.1
 
 ##    ((Enter Remote Session on workstation1))
-`Enter-PSSession 10.44.44.160 -Credential (Get-Credential)`
+`Enter-PSSession 192.168.1.160 -Credential (Get-Credential)`
 
 2. Install The Active Directory Windows Feature
 
