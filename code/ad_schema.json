@@ -1,21 +1,27 @@
 {
+    "domain": "maw.com",
+    
     "groups" : [
         {
-            "name" : "Engineering"
+            "name" : "Employees"
         }
     ],
     
     "users": [
 
         {
-            "first_name": "Mike",
-            "last_name": "Weaver",
-            "password": "peedubya",
-            "username": "mweaver",
+            "name": "He Man",
+            "password": "passthehash",
             "groups": [
-                "Engineering"
+                "Employees"
+            ]    
+        },
+        {
+            "name": "Bob Smittie",
+            "password": "passwordhereC",
+            "groups": [
+                "Employees"
             ]    
         }
     ]
-
 }
